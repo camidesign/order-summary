@@ -109,6 +109,13 @@ div.orderpreview {
 
     border: 1px solid rgba(86, 103, 137, 0.26);
     border-radius: 8px;
+
+    cursor: pointer;
+}
+
+div.orderpreview:hover {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgba(86, 103, 137, 0.47);
 }
 
 #avatar {
@@ -138,7 +145,10 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
-}
+    cursor: pointer;
+
+    transition: 0.3s ease;
+} 
 
 .button-div {
     display: flex;
@@ -157,8 +167,18 @@ button {
     color: white;
 }
 
+.primary-btn:hover {
+    background-color: #796de7;
+}
+
+
 .secondary-btn {
     border: 1px solid rgba(86, 103, 137, 0.26);
     background-color: white;
     color: rgba(21, 25, 32, 0.5);
+}
+
+.secondary-btn:hover {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgba(86, 103, 137, 0.47);
 }
