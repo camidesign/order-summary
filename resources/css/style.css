@@ -20,20 +20,20 @@ body {
 
 /* Text styles */
 h1 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 24px;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 700;
     
 }
 
 h3 {
-    font-weight: 500;
     font-size: 16px;
+    font-weight: 500;
 }
 
 p {
@@ -116,6 +116,12 @@ div.orderpreview {
     height: 40px;
 }
 
+.orderdetails {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 /* Button section */
 
 button {
@@ -142,4 +148,17 @@ button {
     gap: 16px;
 
     width: 328px;
+}
+
+/* Button styles */
+
+.primary-btn {
+    background-color: #9287FF;
+    color: white;
+}
+
+.secondary-btn {
+    border: 1px solid rgba(86, 103, 137, 0.26);
+    background-color: white;
+    color: rgba(21, 25, 32, 0.5);
 }
