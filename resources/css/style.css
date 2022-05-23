@@ -3,6 +3,8 @@
 
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,11 +16,13 @@ body {
 h1 {
     font-size: 24px;
     font-weight: 700;
+    line-height: 24px;
 }
 
 h2 {
     font-size: 16px;
     font-weight: 700;
+    
 }
 
 h3 {
@@ -30,8 +34,20 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+    line-height: 20px;
 }
 
+/* Modal styling */
+div.modal {
+    position: relative;
+    width: 328px;
+    padding: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: WHITE;
+    border-radius: 16px;
+}
 
 /* Banner image div section */
 
@@ -60,3 +76,17 @@ div.title {
     display: flex;
     flex-direction: row;
 }
+
+/* 8px-top divs */
+
+div.pxtop {
+    padding: 8px 24px;
+    width: 328px;
+    align-items: center;
+    display: flex;
+}
+
+div.pxtop p {
+    color: rgba(21, 25, 32, 0.5);
+}
+
