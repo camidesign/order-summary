@@ -111,6 +111,9 @@ div.orderpreview {
     border-radius: 8px;
 
     cursor: pointer;
+    
+    transition: 0.3s ease;
+
 }
 
 div.orderpreview:hover {
