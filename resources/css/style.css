@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&display=swap');
 
 * {
@@ -5,19 +6,57 @@
 }
 
 body {
-    font-family: 'Public Sans', sans-serif;;
+    font-family: 'Public Sans', sans-serif;
+    background-color: rgba(211, 211, 211, 0.206);
 }
 
+/* Text styles */
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* Banner image div section */
+
 div.image {
+    padding: 16px 16px 8px;
     width: 328px;
     height: 160px;
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 10px
 }
 
 img {
     width: 100%;
     object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Title section */
+
+div.title {
+    padding: 16px 24px;
+    width: 328px;
+    height: 56px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
