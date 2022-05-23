@@ -8,8 +8,14 @@
 }
 
 body {
+    display: flex;
     font-family: 'Public Sans', sans-serif;
     background-color: rgba(211, 211, 211, 0.206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
 }
 
 /* Text styles */
